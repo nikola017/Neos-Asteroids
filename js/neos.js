@@ -3,7 +3,7 @@ var myGameArea = {
     startTime:null,
     elapsedTime: 0,
     lastAsteroidTime: 0, // time when the last asteroid was added
-    asteroidAddInterval: 3000, // interval to add new asteroids (2000ms = 3s)
+    asteroidAddInterval: 3000, // interval to add new asteroids (3000ms = 3s)
     start: function() {
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
